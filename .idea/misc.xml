@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/trip-backend/pom.xml" />
         <option value="$PROJECT_DIR$/trip-frontend/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
       </list>
     </option>
   </component>

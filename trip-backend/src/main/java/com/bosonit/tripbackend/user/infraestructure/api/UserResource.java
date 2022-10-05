@@ -41,8 +41,8 @@ public class UserResource {
         return ResponseEntity.ok().body(userService.getUsers());
     }
 
-    @GetMapping("/user/{id}")
-    public ResponseEntity<User>getUserById(@PathVariable Long userId){return ResponseEntity.ok().body(userService.findById(userId));}
+    @GetMapping("/user/{userId}")
+    public ResponseEntity<User>getUserById(@PathVariable("userId") Long userId){return ResponseEntity.ok().body(userService.findById(userId));}
 
     @PostMapping("/user/save")
     public ResponseEntity<User>saveUser(@RequestBody User user) {

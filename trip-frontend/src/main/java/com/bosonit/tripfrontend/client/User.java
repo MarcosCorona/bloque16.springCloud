@@ -14,9 +14,14 @@ import java.util.Optional;
 @AllArgsConstructor
 public class User {
 
+    private Long userId;
     private String name;
     private String lastname;
+    private int age;
     private String email;
     private String telephone;
+    private Collection<Role> roles = new ArrayList<>();
+    private String username;
+    private String password;
 
 }
